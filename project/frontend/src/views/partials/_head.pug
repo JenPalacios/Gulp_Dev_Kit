@@ -1,0 +1,49 @@
+- var data = locals;
+
+head
+  title CHANGE_ME
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  meta(charset="UTF8")
+  meta(http-equiv="X-UA-Compatible", content="IE=Edge")
+  meta(name='description', content='CHANGE_ME')
+
+  meta(name="robots", content="index,follow,noodp")
+  meta(name="googlebot", content="index,follow")
+
+  meta(name="url", content="https://CHANGE_ME.com/")
+
+  //-GOOGLE FONTS
+  link(href="CHANGE_ME" rel="stylesheet")
+
+  //-Facebook/Open-Graph
+  meta(property="og:url", content="https://CHANGE_ME.com")
+  meta(property="og:type", content="website")
+  meta(property="og:title", content="CHANGE_ME")
+  meta(property="og:image", content="https://example.com/image.jpg")
+  meta(property="og:description", content="CHANGE_ME")
+  meta(property="og:site_name", content="CHANGE_ME")
+  meta(property="og:locale", content="de_DE")
+
+  //-Twitter
+  meta(name="twitter:card", content="summary")
+  meta(name="twitter:site", content="CHANGE_ME")
+  meta(name="twitter:creator", content="CHANGE_ME")
+  meta(name="twitter:url", content="https://CHANGE_ME.com")
+  meta(name="twitter:title", content="CHANGE_ME")
+  meta(name="twitter:description", content="CHANGE_ME")
+  meta(name="twitter:image", content="https://example.com/image.jpg")
+
+  //-Google+
+  link(href="https://plus.google.com/CHANGE_ME", rel="publisher")
+  meta(itemprop="name", content="CHANGE_ME")
+  meta(itemprop="description", content="CHANGE_ME")
+  meta(itemprop="image", content="https://example.com/image.jpg")
+
+  //- Favicons
+  //-**ADD FAVICON LINKS HERE**
+
+  //-CSS
+  if data.env == 'dev'
+    link(href='css/app.css' rel='stylesheet')
+  else
+    link(href='css/app.css' rel='stylesheet')

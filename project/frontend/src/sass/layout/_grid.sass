@@ -1,0 +1,15 @@
+.row
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
+.column
+  flex-basis: 50%
+
+@media screen and (min-width: 600px)
+  .container
+    margin: 0 auto
+    max-width: 1200px
+
+  .column
+    flex: unset
